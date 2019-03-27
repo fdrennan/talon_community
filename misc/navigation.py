@@ -1,7 +1,7 @@
 from talon.voice import Context, Key
 
 ctx = Context("navigation")
-
+#  this is a mapping for scrolling and other mouse utilities
 keymap = {
     # scrolling
     "scroll down": [Key("down")] * 30,
