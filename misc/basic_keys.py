@@ -1,4 +1,4 @@
-Double clickfrom talon.voice import Context, press, Key
+from talon.voice import Context, press, Key
 import string
 from ..utils import normalise_keys, insert
 
