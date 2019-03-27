@@ -109,6 +109,3 @@ venv.bak/
 # jetbrains
 .idea/
 
-# personal scripts
-personal.py
-personal
