@@ -23,7 +23,7 @@ ctx = Context("personal")
 
 keymap = {
     "perpipe": [Key("cmd-shift-m"), Key("enter")],
-    "our chunk": ["```{r}", Key("enter"), Key("enter"), "`"],
+    "our chunk": ["```{r}", Key("enter"), Key("enter"), "`", Key("up")],
     "pat": "<-"
 }
 
