@@ -30,6 +30,12 @@ keymap = {
     "clear console": [Key('ctrl-l')],
     "restart our session": [Key('ctrl-shift-f10')],
 
+    "our run": [Key('ctrl-enter')],
+    "our source": [Key('ctrl-enter')],
+    "our comment": [Key('ctrl-shift-c')],
+    "our run above": [Key('cmd-alt-b')],
+    "our run chunk": [Key('cmd-alt-t')],
+
     "our calm head": ["head()", Key("left")],
     "our calm call names": ["colnames()", Key("left")],
     "our calm some": ["sum()", Key("left")],
