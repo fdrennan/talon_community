@@ -1,8 +1,8 @@
-from talon.voice import Context, Key, Word
+from talon.voice import Context, Ke
 
 
 
-ctx = Context("personalS")
+ctx = Context("personal")
 #  this is a mapping for scrolling and other mouse utilities
 #
 # keymap = {
