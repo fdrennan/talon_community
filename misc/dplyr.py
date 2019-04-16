@@ -22,6 +22,7 @@ ctx = Context("dplyr")
 
 
 keymap = {
+
     "deplyr package": ["dplyr::"],
     "deplyr filter": ["filter()", Key("left"), Key("enter")],
     "deplyr mutate": ["mutate()", Key("left"), Key("enter")],

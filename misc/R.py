@@ -28,7 +28,8 @@ keymap = {
     "our calm deeput": ["dput()", Key("left")],
     "ourqual": [" = "],
     "ourdubqual": [" == "],
-    "in a": ["na"]
+    "in a": ["na"],
+    "are studio": ["rstudio"]
 
 }
 
