@@ -23,6 +23,7 @@ ctx = Context("personal")
 
 keymap = {
     "our calm head": ["head()", Key("left")],
+    "our calm call names": ["colnames()", Key("left")],
     "our calm some": ["sum()", Key("left")],
     "our calm deeput": ["dput()", Key("left")],
     "ourqual": [" = "],
