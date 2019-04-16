@@ -33,8 +33,8 @@ keymap = {
     "our run": [Key('ctrl-enter')],
     "our source": [Key('ctrl-enter')],
     "our comment": [Key('ctrl-shift-c')],
-    "our run above": [Key('cmd-shift-p')],
-    "our run chunk": [Key('cmd-shift-enter')],
+    "run above": [Key('cmd-shift-p')],
+    "run chunk": [Key('cmd-shift-enter')],
 
     "our calm head": ["head()", Key("left")],
     "our calm call names": ["colnames()", Key("left")],
