@@ -33,7 +33,7 @@ keymap = {
     "our run": [Key('ctrl-enter')],
     "our source": [Key('ctrl-enter')],
     "our comment": [Key('ctrl-shift-c')],
-    "run above": [Key('alt-shift-p')],
+    "run above": [Key('alt-cmd-p')],
     "run chunk": [Key('cmd-shift-enter')],
 
     "our calm head": ["head()", Key("left")],
