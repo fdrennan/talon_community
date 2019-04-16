@@ -25,7 +25,8 @@ keymap = {
     "perpipe": [Key("cmd-shift-m"), Key("enter")],
     "our chunk": ["```{r, message=FALSE, warning=FALSE}", Key("enter"), Key("enter"), "```", Key("up")],
     "pie chunk": ["```{python}", Key("enter"), Key("enter"), "```", Key("up")],
-    "our pat": [Key("space"), "<-", Key("enter")]
+    "our pat": [Key("space"), "<-", Key("enter")],
+    "our calm some": ["sum()", Key("left")]
 }
 
 ctx.keymap(keymap)

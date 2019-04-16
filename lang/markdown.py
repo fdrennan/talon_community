@@ -36,7 +36,7 @@ def markdown_incomplete(m):
     press("right")
     press("right")
     press("delete")
-    Str(" ")(None)
+    Str(" "With)(None)
 
 
 keymap = {
