@@ -20,9 +20,9 @@ ctx = Context("personal")
 #     "marthis": [Key("alt-right"), Key("shift-alt-left"), Key("cmd-f"), Key("enter")],
 # }
 
-
 keymap = {
     "our new script": [Key('cmd-shift-n')],
+    "focus source": [Key('control-1')],
 
     "our calm head": ["head()", Key("left")],
     "our calm call names": ["colnames()", Key("left")],
