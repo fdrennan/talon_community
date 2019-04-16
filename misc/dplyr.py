@@ -22,7 +22,9 @@ ctx = Context("dplyr")
 
 
 keymap = {
-    "tidy filter": ["filter()", Key("left"), Key("enter")]
+    "tidy filter": ["filter()", Key("left"), Key("enter")],
+    "tidy mutate": ["mutate()", Key("left"), Key("enter")],
+    "tidy select": ["select()", Key("left"), Key("enter")],
 }
 
 ctx.keymap(keymap)
