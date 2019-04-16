@@ -27,24 +27,28 @@ keymap = {
     "tidy select": ["select()", Key("left"), Key("enter")],
     "tidy summarize": ["summarise()", Key("left"), Key("enter")],
     "tidy rename": ["rename()", Key("left"), Key("enter")],
+    "tidy group by": ["group_by()", Key("left"), Key("enter")],
 
     "tidy filter if": ["filter_if()", Key("left"), Key("enter")],
     "tidy mutate if": ["mutate_if()", Key("left"), Key("enter")],
     "tidy select if": ["select_if()", Key("left"), Key("enter")],
     "tidy summarize if": ["summarise_if()", Key("left"), Key("enter")],
     "tidy rename if": ["rename_if()", Key("left"), Key("enter")],
+    "tidy group by if": ["group_by_if()", Key("left"), Key("enter")],
 
     "tidy filter at": ["filter_at()", Key("left"), Key("enter")],
     "tidy mutate at": ["mutate_at()", Key("left"), Key("enter")],
     "tidy select at": ["select_at()", Key("left"), Key("enter")],
     "tidy summarize at": ["summarise_at()", Key("left"), Key("enter")],
     "tidy rename at": ["rename_at()", Key("left"), Key("enter")],
+    "tidy group at": ["group_by_at()", Key("left"), Key("enter")],
 
     "tidy filter all": ["filter_all()", Key("left"), Key("enter")],
     "tidy mutate all": ["mutate_all()", Key("left"), Key("enter")],
     "tidy select all": ["select_all()", Key("left"), Key("enter")],
     "tidy summarize all": ["summarise_all()", Key("left"), Key("enter")],
-    "tidy rename all": ["rename_all()", Key("left"), Key("enter")]
+    "tidy rename all": ["rename_all()", Key("left"), Key("enter")],
+    "tidy group by all": ["group_by_all()", Key("left"), Key("enter")],
 }
 
 ctx.keymap(keymap)
