@@ -26,7 +26,8 @@ def title_case_capitalize_word(index, word, _):
 
 formatters = normalise_keys(
     {
-        "acro": (True, lambda i, word, _: word[0:1].upper()),
+        "acro big": (True, lambda i, word, _: word[0:1].upper()),
+        "acro": (True, lambda i, word, _: word[0:1]),
         "rip": (True, lambda i, word, _: word[0:1] if i == 0 else ""),
         "tree": (True, lambda i, word, _: word[0:3] if i == 0 else ""),
         "quad": (True, lambda i, word, _: word[0:4] if i == 0 else ""),
