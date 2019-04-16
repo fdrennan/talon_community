@@ -22,6 +22,7 @@ ctx = Context("dplyr")
 
 
 keymap = {
+    "deplyr": ["dplyr::"],
     "tidy filter": ["filter()", Key("left"), Key("enter")],
     "tidy mutate": ["mutate()", Key("left"), Key("enter")],
     "tidy select": ["select()", Key("left"), Key("enter")],
@@ -50,7 +51,8 @@ keymap = {
     "tidy rename all": ["rename_all()", Key("left"), Key("enter")],
     "tidy group by all": ["group_by_all()", Key("left"), Key("enter")],
 
-    "reader right": ["write_"]
+    "reader right": ["write_"],
+    "reader read": ["read_"]
 }
 
 ctx.keymap(keymap)
