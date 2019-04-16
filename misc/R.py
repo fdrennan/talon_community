@@ -22,7 +22,7 @@ ctx = Context("personal")
 
 keymap = {
     "our new script": [Key('cmd-shift-n')],
-    "focus source": [Key('ctrl-1')],
+    "focus code": [Key('ctrl-1')],
     "focus console": [Key('ctrl-2')],
     "focus terminal": [Key('alt-shift-t')],
 
