@@ -25,6 +25,7 @@ keymap = {
     "our calm some": ["sum()", Key("left")],
     "ourqual": [" = "],
     "ourdubqual": [" == "],
+    "in a": ["na"]
 }
 
 ctx.keymap(keymap)
