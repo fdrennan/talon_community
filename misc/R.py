@@ -22,6 +22,8 @@ ctx = Context("personal")
 
 
 keymap = {
+    "our new script": [Key('cmd'), Key('shift'), Key("left")],
+
     "our calm head": ["head()", Key("left")],
     "our calm call names": ["colnames()", Key("left")],
     "our calm some": ["sum()", Key("left")],
