@@ -1,6 +1,6 @@
 from talon.voice import Context, Key
 
-ctx = Context("personal")
+ctx = Context("dplyr")
 #  this is a mapping for scrolling and other mouse utilities
 #
 # keymap = {
@@ -22,7 +22,7 @@ ctx = Context("personal")
 
 
 keymap = {
-    "our calm some": ["sum()", Key("left")]
+    "tidy filter": ["filter()", Key("left"), Key("enter")]
 }
 
 ctx.keymap(keymap)
