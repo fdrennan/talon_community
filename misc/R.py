@@ -26,6 +26,10 @@ keymap = {
     "focus console": [Key('ctrl-2')],
     "focus terminal": [Key('alt-shift-t')],
 
+    "show history": [Key('cmd-up')],
+    "clear console": [Key('ctrl-l')],
+    "restart our session": [Key('ctrl-shift-f10')],
+
     "our calm head": ["head()", Key("left")],
     "our calm call names": ["colnames()", Key("left")],
     "our calm some": ["sum()", Key("left")],
