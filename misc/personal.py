@@ -1,4 +1,6 @@
-from talon.voice import Context, Key
+from talon.voice import Context, Key, Word
+
+
 
 ctx = Context("personalS")
 #  this is a mapping for scrolling and other mouse utilities
@@ -20,10 +22,8 @@ ctx = Context("personalS")
 #     "marthis": [Key("alt-right"), Key("shift-alt-left"), Key("cmd-f"), Key("enter")],
 # }
 
-ACRONYM = (True, lambda i, word, _: word[0:1].upper())
-
 keymap = {
-    "acro": ACRONYM,
+    "acro": (True, lambda i, word, _: word[0:1].upper()),
     "our pipe": [Key("cmd-shift-m"), Key("enter")],
     "our chunk": ["```{r, message=FALSE, warning=FALSE}", Key("enter"), Key("enter"), "```", Key("up")],
     "pie chunk": ["```{python}", Key("enter"), Key("enter"), "```", Key("up")],
