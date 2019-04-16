@@ -23,9 +23,11 @@ ctx = Context("personal")
 
 keymap = {
     "our calm some": ["sum()", Key("left")],
+    "are com deput": ["dput()", Key("left")],
     "ourqual": [" = "],
     "ourdubqual": [" == "],
     "in a": ["na"]
+
 }
 
 ctx.keymap(keymap)
