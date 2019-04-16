@@ -49,6 +49,8 @@ keymap = {
     "tidy summarize all": ["summarise_all()", Key("left"), Key("enter")],
     "tidy rename all": ["rename_all()", Key("left"), Key("enter")],
     "tidy group by all": ["group_by_all()", Key("left"), Key("enter")],
+
+    "reader right": ["write_"]
 }
 
 ctx.keymap(keymap)
