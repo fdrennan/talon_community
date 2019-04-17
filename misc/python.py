@@ -21,8 +21,8 @@ ctx = Context("python")
 # }
 
 keymap = {
-    "none pie": ['np'],
-    "import none pie": ['import numpy as np']
+    "none pie": ["np"],
+    "import none pie": ["import numpy as np"]
 }
 
 ctx.keymap(keymap)
