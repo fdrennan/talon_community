@@ -1,6 +1,6 @@
 from talon.voice import Context, Key
 
-ctx = Context("personal")
+ctx = Context("R")
 #  this is a mapping for scrolling and other mouse utilities
 #
 # keymap = {
