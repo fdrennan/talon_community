@@ -24,7 +24,7 @@ keymap = {
     "our new script": [Key('cmd-shift-n')],
     "focus code": [Key('ctrl-1')],
     "focus console": [Key('ctrl-2')],
-    "focus terminal": [Key('alt-shift-t')],
+    "focus term": [Key('alt-shift-t')],
 
     "show history": [Key('cmd-up')],
     "clear console": [Key('ctrl-l')],
