@@ -9,7 +9,8 @@ keymap = {
     "import pandas": ["import pandas as pd"],
     "pandas": ["pd."],
     "import mat plot": ["import matplotlib.pyplot as plt"],
-    "mat plot": ["plt."]
+    "mat plot": ["plt."],
+    "pandas group by": ["hi there"]
 }
 
 ctx.keymap(keymap)
