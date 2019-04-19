@@ -10,7 +10,7 @@ keymap = {
     "pandas": ["pd."],
     "import mat plot": ["import matplotlib.pyplot as plt"],
     "mat plot": ["plt."],
-    "pandas group by": ["hi there"]
+    "pandas group by": [".groupby(['Animals'])"]
 }
 
 ctx.keymap(keymap)
