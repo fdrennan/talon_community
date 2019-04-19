@@ -21,7 +21,8 @@ ctx = Context("ggplot")
 # }
 
 keymap = {
-    "library GG plot": ['library(ggplot', Key("right"), Key("enter")],
+    "library GG plot": ['library(ggplot2)', Key("right"), Key("enter")],
+    "GG plot package": ["ggplot::"],
     "GG plot": ["ggplot() +", Key("enter")],
     "GG aesthetics": ["aes() +", Key("left"), Key("left"), Key("left")],
     "geom line": ["geom_line()", Key("left")]

@@ -23,7 +23,7 @@ ctx = Context("dplyr")
 
 keymap = {
     "library blooperdate": ["library(lubridate)"],
-    "blooperdate": ["lubridate::"]
+    "blooperdate package": ["lubridate::"]
 
 }
 
