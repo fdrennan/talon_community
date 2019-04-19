@@ -77,11 +77,6 @@ keymap = {
     "deplyr numb range": ["num_range()", Key("left")],
     "deplyr one of": ["one_of()", Key("left")],
     "deplyr starts with": ["starts_with()", Key("left")],
-
-    "deplyr starts with": ["starts_with()", Key("left")],
-
-
-
     "reader right": ["write_"],
     "reader read": ["read_"]
 }

@@ -84,7 +84,7 @@ def new_server(m):
     press("enter")
 
 
-keymap = {
+keymap6= {
     "lefty": Key("ctrl-a"),
     "ricky": Key("ctrl-e"),
     "(pain new | split vertical)": Key("cmd-d"),
