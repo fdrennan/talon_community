@@ -66,7 +66,7 @@ ctx.keymap(
         "state while": ["while ()", Key("left")],
         "state for": "for ",
         "state switch": ["switch ()", Key("left")],
-        "state case:": ["case \nbreak;", Key("up")],
+        "state case": ["case \nbreak;", Key("up")],
         # Other Keywords
         "const": "const ",
         "static": "static ",
