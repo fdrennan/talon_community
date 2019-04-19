@@ -268,6 +268,7 @@ global_ctx = Context("global_terminal")
 global_ctx.keymap(
     {"shell rerun": shell_rerun, "shell server {global_terminal.servers}": name_servers}
 )
+
 global_ctx.set_list("servers", servers.keys())
 # module.exports = {
 #   permissions: "chmod "
