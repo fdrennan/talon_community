@@ -26,6 +26,9 @@ keymap = {
     "focus console": [Key('ctrl-2')],
     "focus term": [Key('alt-shift-t')],
 
+    "focus code full": [Key('shift-ctrl-1')],
+    "focus console full": [Key('shift-ctrl-2')],
+
     "show history": [Key('cmd-up')],
     "clear console": [Key('ctrl-l')],
     "restart our session": [Key('ctrl-shift-f10')],
