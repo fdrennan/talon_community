@@ -1,6 +1,6 @@
 from talon.voice import Context, Key
 
-ctx = Context("dplyr")
+ctx = Context("lubridate")
 #  this is a mapping for scrolling and other mouse utilities
 #
 # keymap = {
