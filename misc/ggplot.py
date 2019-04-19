@@ -21,7 +21,7 @@ ctx = Context("ggplot")
 # }
 
 keymap = {
-    "library gg plot": [Key('library(ggplot')]
+    "library GG plot": [Key('library(ggplot')]
 }
 
 ctx.keymap(keymap)
