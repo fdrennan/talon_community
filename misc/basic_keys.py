@@ -38,7 +38,7 @@ symbols = normalise_keys(
         "(semicolon | semi)": ";",
         "(quote | quatchet)": "'",
         "(square | L square | left square | left square bracket)": "[",
-        "(R square | right square | right square bracket)": "]",i
+        "(R square | right square | right square bracket)": "]",
         "(slash | forward slash)": "/",
         "backslash": "\\",
         "(minus | dash)": "-",
