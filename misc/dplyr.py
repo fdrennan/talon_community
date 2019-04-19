@@ -57,7 +57,7 @@ keymap = {
     "deplyr transmute all": ["transmute_all()", Key("left"), Key("enter")],
 
     "deeplyr count": ["count()", Key("left")],
-    "on group": ["ungroup()"],
+    "deeplyr on group": ["ungroup()"],
     "deplyr sample fraction": ["sample_frac()", Key("left")],
     "deplyr sample in": ["sample_n()", Key("left")],
     "deplyr slice": ["slice()", Key("left")],
