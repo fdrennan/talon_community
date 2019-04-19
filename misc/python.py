@@ -10,6 +10,7 @@ keymap = {
     "pandas": ["pd."],
     "import mat plot": ["import matplotlib.pyplot as plt"],
     "mat plot": ["plt."],
+    "pandas call names": [".columns"],
     "pandas group by": [".groupby(['Animals'])"]
 }
 
