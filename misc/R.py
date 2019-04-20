@@ -38,6 +38,7 @@ keymap = {
     "our comment": [Key('ctrl-shift-c')],
     "run above": [Key('alt-cmd-p')],
     "run chunk": [Key('cmd-shift-enter')],
+    "our dim": ["dim()", Key("left")],
 
     "our calm head": ["head()", Key("left")],
     "our calm call names": ["colnames()", Key("left")],

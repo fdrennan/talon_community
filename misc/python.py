@@ -11,7 +11,9 @@ keymap = {
     "import mat plot": ["import matplotlib.pyplot as plt"],
     "mat plot": ["plt."],
     "pandas call names": [".columns"],
-    "pandas group by": [".groupby(['Animals'])"]
+    "pandas group by": [".groupby(['Animals'])"],
+    "pandas summarise": [".agg({'column': 'function'})"],
+    "pandas apply": [".agg({'column': 'function'})"]
 }
 
 ctx.keymap(keymap)
