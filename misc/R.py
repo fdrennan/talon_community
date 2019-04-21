@@ -103,7 +103,7 @@ keymap = {
     "our LS": ["ls()", Key("left")],
     "our remove": ["rm()", Key("left")],
     "our remove all": ["rm(list = ls())"],
-    "our assign": [" <- "]
+    "our assign": [" <- "],
     "our assign line": [" <- ", Key("enter")]
 
 }
