@@ -79,6 +79,15 @@ keymap = {
     "deplyr starts with": ["starts_with()", Key("left")],
     "deplyr call names": [" %>% ", Key("enter"), "colnames"],
 
+    "deplyr lag": ["lag()", Key("left")],
+    "deplyr lead": ["lead()", Key("left")],
+    "deplyr come all": ["cumall()", Key("left")],
+    "deplyr come any": ["cumany()", Key("left")],
+    "deplyr come max": ["cummax()", Key("left")],
+    "deplyr come min": ["cummin()", Key("left")],
+    "deplyr come prod": ["cumprod()", Key("left")],
+    "deplyr come sum": ["cumsum()", Key("left")],
+
     "reader right": ["write_"],
     "reader read": ["read_"]
 }
