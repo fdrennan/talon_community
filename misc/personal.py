@@ -22,7 +22,7 @@ ctx = Context("personal")
 
 keymap = {
     "jet pole": ["git pull "],
-    "double down": [Key("down"), Key("down")]
+    "our double down": [Key("down"), Key("down")],
     "prog our": ["R"],
     "our pipe": [Key("cmd-shift-m"), Key("enter")],
     "our pipe line": [Key("cmd-right"), Key("cmd-shift-m"), Key("enter")],
