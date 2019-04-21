@@ -56,7 +56,8 @@ keymap = {
     "ourqual": [" = "],
     "ourdubqual": [" == "],
     "in a": ["na"],
-    "are studio": ["rstudio"]
+    "are studio": ["rstudio"],
+    "paste oh": ["paste0()", Key("left")]
 
 }
 
