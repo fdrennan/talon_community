@@ -25,8 +25,7 @@ keymap = {
     "import blooper": ["library(lubridate)"],
     "blooper package": ["lubridate::"],
     "blooper as date time": ["as_datetime()", Key("left")],
-    "blooper why them dee": ["ymd()", Key("left")],
-    "blooper why them dee three": ["ymd_hms()", Key("left")],
+    "blooper why them dee": ["ymd", Key("tab")]
 
 }
 
