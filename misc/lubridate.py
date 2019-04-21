@@ -60,7 +60,7 @@ keymap = {
     "blooper force": ["force_tz()", Key("left")],
     "blooper day light": ["dst()"],
     "blooper stamp": ["stamp",Key("tab")],
-    "blooper math year": ["years()",Key("left")]
+    "math year": ["years()",Key("left")]
 
 }
 
