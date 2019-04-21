@@ -98,7 +98,7 @@ keymap = {
     "deplyr near": ["near()", Key("left")],
 
     "deplyr case_when": ["case_when()", Key("left"), Key("enter"), Key("tab")],
-    "deplyr coal ess": ["coalesce()", Key("left")],
+    "deplyr kalus": ["coalesce()", Key("left")],
     "deplyr if else": ["if_else()", Key("left"), Key("enter"), Key("tab")],
     "deplyr in a if": ["na_if()", Key("left")],
     "deplyr pea max": ["pmax()", Key("left")],
