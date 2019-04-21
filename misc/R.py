@@ -40,7 +40,8 @@ keymap = {
     "show history": [Key('cmd-up')],
     "clear console": [Key('ctrl-l')],
     "restart our session": [Key('ctrl-shift-f10')],
-    "our new line": [Key('cmd-right'), ",", Key("enter")],
+
+
     "our line": [Key('alt-enter')],
     "our run": [Key('ctrl-enter')],
     "our source": [Key('ctrl-enter')],
