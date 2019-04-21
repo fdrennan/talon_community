@@ -41,7 +41,7 @@ keymap = {
     "blooper date": ["date()", Key("left")],
     "blooper year": ["year()", Key("left")],
     "blooper so year": ["isoyear()", Key("left")],
-    "blooper epi year": ["epiyear()", Key("left")],
+    "blooper eppie year": ["epiyear()", Key("left")],
 
 }
 
