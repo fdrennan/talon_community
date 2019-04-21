@@ -105,7 +105,15 @@ keymap = {
     "deplyr pea min": ["pmin()", Key("left")],
     "deplyr recode": ["recode()", Key("left")],
     "deplyr recode factor": ["recode_factor()", Key("left")],
+
     "deplyr in": ["n()", Key("left")],
+    "deplyr in distinct": ["n_distinct()", Key("left")],
+    "deplyr mean": ["mean()", Key("left")],
+    "deplyr median": ["median()", Key("left")],
+    "deplyr sum": ["sum()", Key("left")],
+    "deplyr first": ["first()", Key("left")],
+    "deplyr last": ["last()", Key("left")],
+    "deplyr inth": ["nth()", Key("left")],
 
     "reader right": ["write_"],
     "reader read": ["read_"]
