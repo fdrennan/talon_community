@@ -24,8 +24,29 @@ ctx = Context("magrittr")
 keymap = {
     "import mage": ["library(magrittr)"],
     "mage package": ["magrittr::"],
+    "mage explode": [" %$% ", Key("enter")],
+    "mage extract": ["extract()", Key("left")],
+    "mage extract too": ["extract2()", Key("left")],
+    "mage in set": ["inset()", Key("left")],
+    "mage in set too": ["inset2()", Key("left")],
+    "mage use series": ["use_series()", Key("left")],
     "mage add": ["add()", Key("left")],
-    "pipe add": ["add", Key("left")],
+    "mage subtract": ["subtract()", Key("left")],
+    "mage multiply": ["multiply_by()", Key("left")],
+    "mage raise": ["raise_to_power()", Key("left")],
+    "mage matrix multiply": ["multiply_by_matrix()", Key("left")],
+    "mage divide": ["divide_by()", Key("left")],
+    "mage integer divide": ["divide_by_int()", Key("left")],
+    "mage mod": ["mod()", Key("left")],
+    "mage is": ["is_in()", Key("left")],
+    "mage and": ["and()", Key("left")],
+    "mage or": ["or()", Key("left")],
+    "mage equals": ["equals()", Key("left")],
+    "mage great": ["is_greater_than()", Key("left")],
+    "mage weak great": ["is_weakly_greater_than()", Key("left")],
+    "mage less": ["is_less_than()", Key("left")],
+    "mage weak less": ["is_weakly_less_than()", Key("left")],
+    "mage not": ["not()", Key("left")]
 
 }
 
