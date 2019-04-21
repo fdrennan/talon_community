@@ -21,10 +21,16 @@ ctx = Context("R")
 # }
 
 keymap = {
+
+    "our view": ["View()", Key("left")],
+    "our glimpse": ["glimpse()", Key("left")],
+    "our summarise": ["glimpse()", Key("left")],
+
     "our new script": [Key('cmd-shift-n')],
     "focus code": [Key('ctrl-1')],
     "focus console": [Key('ctrl-2')],
     "focus term": [Key('alt-shift-t')],
+    "focus all": [Key('ctrl-shift-0')],
 
     "focus code full": [Key('shift-ctrl-1')],
     "focus console full": [Key('shift-ctrl-2')],
