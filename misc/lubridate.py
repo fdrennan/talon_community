@@ -48,7 +48,16 @@ keymap = {
     "blooper semester": ["semester()", Key("left")],
     "blooper quarter": ["quarter()", Key("left")],
     "blooper am": ["am()", Key("left")],
-    "blooper pea": ["pm()", Key("left")]
+    "blooper pea": ["pm()", Key("left")],
+    "blooper leap": ["leap_year()", Key("left")],
+    "blooper update": ["update()", Key("left")],
+    "blooper floor": ["floor_date()", Key("left")],
+    "blooper round": ["round_date()", Key("left")],
+    "blooper ceiling": ["ceiling_date()", Key("left")],
+    "blooper roll back": ["rollback()", Key("left")],
+    "blooper zones": ["OlsonNames()"],
+    "blooper with": ["with_tz()", Key("left")],
+    "blooper force": ["force_tz()", Key("left")],
 
 }
 
