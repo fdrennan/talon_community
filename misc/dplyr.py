@@ -84,7 +84,7 @@ keymap = {
     "deplyr come all": ["cumall()", Key("left")],
     "deplyr come any": ["cumany()", Key("left")],
     "deplyr come max": ["cummax()", Key("left")],
-    "deplyr come MEAN": ["cummean()", Key("left")],
+    "deplyr come mean": ["cummean()", Key("left")],
     "deplyr come min": ["cummin()", Key("left")],
     "deplyr come prod": ["cumprod()", Key("left")],
     "deplyr come sum": ["cumsum()", Key("left")],
