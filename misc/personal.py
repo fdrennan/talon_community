@@ -24,6 +24,7 @@ keymap = {
     "jet pole": ["git pull "],
     "prog our": ["R"],
     "our pipe": [Key("cmd-shift-m"), Key("enter")],
+    "our pipe line": [Key("cmd-right"), Key("cmd-shift-m"), Key("enter")],
     "our chunk": ["```{r, message=FALSE, warning=FALSE}", Key("enter"), Key("enter"), "```", Key("up")],
     "pie chunk": ["```{python}", Key("enter"), Key("enter"), "```", Key("up")],
     "our pat": [Key("space"), "<-", Key("enter")],
