@@ -116,7 +116,11 @@ keymap = {
     "deplyr inth": ["nth()", Key("left")],
     "deplyr men": ["min()", Key("left")],
     "deplyr max": ["max()", Key("left")],
+    "deplyr quantile": ["quantile()", Key("left")],
     "deplyr eye queue are": ["IQR()", Key("left")],
+    "deplyr mad": ["mad()", Key("left")],
+    "deplyr standard deviation": ["sd()", Key("left")],
+    "deplyr var": ["var()", Key("left")],
 
     "reader right": ["write_"],
     "reader read": ["read_"]
