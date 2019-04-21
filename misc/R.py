@@ -77,7 +77,7 @@ keymap = {
     "our for": ["for () {}",Key("left"),Key("enter"), Key("left"), Key("left"), Key("left"), Key("left"), Key("left")],
     "our while": ["while () {}", Key("left"),Key("enter"), Key("left"), Key("left"), Key("left"), Key("left"), Key("left")],
     "our if": ["if () {}", Key("left"),Key("enter"), Key("left"), Key("left"), Key("left"), Key("left"), Key("left")],
-    "our else if": [" else if () {}", Key("left"),Key("enter"), Key("left"), Key("left"), Key("left"), Key("left"), Key("left")],
+    "our else if": [" else if () {}", Key("left"),Key("enter"), Key("left"), Key("left"), Key("left"), Key("left")],
     "our else": [" else {}", Key("left"),Key("enter")],
     "our function": [" function(){}", Key("left"),Key("enter"), Key("left"), Key("left"), Key("left"), Key("left")],
     "our as logical": ["as.logical()", Key("left")],
