@@ -31,7 +31,7 @@ keymap = {
     "blooper YDM": ["ydm", Key("tab")],
     "blooper why queue": ["yq()", Key("left")],
     "blooper HMS": ["hms()", Key("left")],
-    "blooper date decimal": ["date_decimal()", Key("left")],
+    "blooper decimal": ["date_decimal()", Key("left")],
     "blooper now": ["now()", Key("left")],
     "blooper fast strip time": ["fast_strptime()", Key("left")],
     "blooper parse date time": ["parse_date_time()", Key("left")],
