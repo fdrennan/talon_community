@@ -93,7 +93,7 @@ keymap = {
     "deplyr add column": ["add_column will()", Key("left")],
 
     "deplyr pull": ["pull()", Key("left")],
-
+    "deplyr everything": ["everything()"],
     "deplyr contains": ["contains()", Key("left")],
     "deplyr ends_with": ["ends_with()", Key("left")],
     "deplyr matches": ["matches()", Key("left")],
