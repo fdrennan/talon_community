@@ -40,8 +40,8 @@ keymap = {
     "blooper as HMS": ["as.hms()", Key("left")],
     "blooper date": ["date()", Key("left")],
     "blooper year": ["year()", Key("left")],
-    "blooper so year": ["isoyear()", Key("left")],
-    "blooper eppie": ["epiyear()", Key("left")],
+    "blooper so": ["iso", Key("tab")],
+    "blooper eppie": ["epi", Key("tab")],
 
 }
 
