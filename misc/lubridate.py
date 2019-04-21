@@ -58,7 +58,7 @@ keymap = {
     "blooper zones": ["OlsonNames()"],
     "blooper with": ["with_tz()", Key("left")],
     "blooper force": ["force_tz()", Key("left")],
-    "blooper day light": ["dst()"],
+    "blooper day light": ["dst()"]
 
 }
 
