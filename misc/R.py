@@ -94,7 +94,6 @@ keymap = {
     "our quantile": ["quantile()", Key("left")],
     "our round": ["round()", Key("left")],
     "our rank": ["rank()", Key("left")],
-    "our significant": ["sig.fig()", Key("left")],
     "our variance": ["var()", Key("left")],
     "our var": ["var()", Key("left")],
     "our correlation": ["cor()", Key("left")],
@@ -104,7 +103,8 @@ keymap = {
     "our LS": ["ls()", Key("left")],
     "our remove": ["rm()", Key("left")],
     "our remove all": ["rm(list = ls())"],
-    "our assign": [" <- ", Key("enter")]
+    "our assign": [" <- "]
+    "our assign line": [" <- ", Key("enter")]
 
 }
 
