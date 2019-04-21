@@ -26,7 +26,7 @@ keymap = {
     "blooper package": ["lubridate::"],
     "blooper as date time": ["as_datetime()", Key("left")],
     "blooper YMD": ["ymd", Key("tab")],
-    "blooper MDY": ["mdy", Key("tab")],
+    "blooper NDY": ["mdy", Key("tab")],
     "blooper DMY": ["dmy", Key("tab")],
     "blooper YDM": ["ydm", Key("tab")],
 
