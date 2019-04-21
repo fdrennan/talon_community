@@ -23,6 +23,8 @@ ctx = Context("dplyr")
 
 keymap = {
     "import deplyr": ["library(deplyr)"],
+    "import tidy": ["library(tidyverse)"],
+    "tighty": ["tidy", Key("tab")],
     "deplyr package": ["dplyr::"],
 
     "deplyr table": ["tibble()", Key("left"), Key("enter")],
