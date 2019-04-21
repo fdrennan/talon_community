@@ -88,6 +88,23 @@ keymap = {
     "deplyr come min": ["cummin()", Key("left")],
     "deplyr come prod": ["cumprod()", Key("left")],
     "deplyr come sum": ["cumsum()", Key("left")],
+    "deplyr come dist": ["cume_dist()", Key("left")],
+    "deplyr dense rank": ["dense_rank()", Key("left")],
+    "deplyr min rank": ["min_rank()", Key("left")],
+    "deplyr in tile": ["ntile()", Key("left")],
+    "deplyr percent rank": ["percent_rank()", Key("left")],
+    "deplyr row number": ["row_number()", Key("left")],
+    "deplyr between": ["between()", Key("left")],
+    "deplyr near": ["near()", Key("left")],
+
+    "deplyr case_when": ["case_when()", Key("left"), Key("enter"), Key("tab")],
+    "deplyr coal ess": ["coalesce()", Key("left")],
+    "deplyr if else": ["if_else()", Key("left"), Key("enter"), Key("tab")],
+    "deplyr in a if": ["na_if()", Key("left")],
+    "deplyr pea max": ["pmax()", Key("left")],
+    "deplyr pea min": ["pmin()", Key("left")],
+    "deplyr recode": ["recode()", Key("left")],
+    "deplyr recode factor": ["recode_factor()", Key("left")],
 
     "reader right": ["write_"],
     "reader read": ["read_"]
