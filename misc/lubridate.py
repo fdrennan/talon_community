@@ -33,6 +33,7 @@ keymap = {
     "blooper HMS": ["hms()", Key("left")],
     "blooper decimal": ["date_decimal()", Key("left")],
     "blooper now": ["now()", Key("left")],
+    "blooper today": ["today()", Key("left")],
     "blooper fast strip time": ["fast_strptime()", Key("left")],
     "blooper parse date time": ["parse_date_time()", Key("left")],
     "blooper as date": ["as_date()", Key("left")],
