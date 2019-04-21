@@ -51,6 +51,7 @@ keymap = {
     "our dim": ["dim()", Key("left")],
     "our head": ["head()", Key("left")],
     "our call names": ["colnames()", Key("left")],
+    "our plot": ["plot()", Key("left")],
     "our deeput": ["dput()", Key("left")],
     "ourqual": [" = "],
     "ourdubqual": [" == "],
