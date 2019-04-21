@@ -1,6 +1,6 @@
 from talon.voice import Context, Key
 
-ctx = Context("personal")
+ctx = Context("stringr")
 #  this is a mapping for scrolling and other mouse utilities
 #
 # keymap = {
@@ -21,13 +21,10 @@ ctx = Context("personal")
 # }
 
 keymap = {
-    "jet pole": ["git pull "],
-    "prog our": ["R"],
-    "our pipe": [Key("cmd-shift-m"), Key("enter")],
-    "our chunk": ["```{r, message=FALSE, warning=FALSE}", Key("enter"), Key("enter"), "```", Key("up")],
-    "pie chunk": ["```{python}", Key("enter"), Key("enter"), "```", Key("up")],
-    "our pat": [Key("space"), "<-", Key("enter")],
-    "curly bracket": ["{}", Key("left"), Key("enter")],
+    "import stringer": ["library(stringr)"],
+    "stringer package": ["stringr::"],
+
+    "stringer detect": ["str_detect()"]
 
 }
 
