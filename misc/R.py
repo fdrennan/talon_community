@@ -25,7 +25,6 @@ keymap = {
     "our view": ["View()", Key("left")],
     "our glimpse": ["glimpse()", Key("left")],
     "deplyr glimpse": ["glimpse()", Key("left")],
-    "our summarise": ["glimpse()", Key("left")],
 
     "our new script": [Key('cmd-shift-n')],
     "focus code": [Key('ctrl-1')],
