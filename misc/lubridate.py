@@ -23,7 +23,8 @@ ctx = Context("lubridate")
 
 keymap = {
     "import blooper": ["library(lubridate)"],
-    "blooper package": ["lubridate::"]
+    "blooper package": ["lubridate::"],
+    "blooper as date time": ["as_datetime()", Key("left")]
 
 }
 
