@@ -41,6 +41,7 @@ keymap = {
     "clear console": [Key('ctrl-l')],
     "restart our session": [Key('ctrl-shift-f10')],
     "our next": [Key('cmd-right'), ",", Key("enter")],
+    "our down": [Key('cmd-right'),  Key("enter")],
     "our line": [Key('alt-enter')],
     "our run": [Key('ctrl-enter')],
     "our source": [Key('ctrl-enter')],
