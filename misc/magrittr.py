@@ -23,7 +23,9 @@ ctx = Context("magrittr")
 
 keymap = {
     "import mage": ["library(magrittr)"],
-    "mage package": ["magrittr::"]
+    "mage package": ["magrittr::"],
+    "mage add": ["add()", Key("left")],
+    "pipe add": ["add", Key("left")],
 
 }
 
