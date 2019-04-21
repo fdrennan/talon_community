@@ -24,6 +24,27 @@ ctx = Context("dplyr")
 keymap = {
 
     "deplyr package": ["dplyr::"],
+
+    "deplyr tibble": ["tibble()", Key("left"), Key("enter")],
+    "deplyr tibble inverse": ["tribble()", Key("left"), Key("enter")],
+
+    "deplyr as tibble": ["as_tibble()", Key("left")],
+    "deplyr is tibble": ["is_tibble()", Key("left")],
+    "deplyr in frame": ["enframe()", Key("left")],
+
+    "deplyr gather": ["gather(data = , key = , value = )"],
+    "deplyr spread": ["spread(data = , key = , value = )"],
+
+    "deplyr drop in a": ["drop_na()", Key("left")],
+    "deplyr fill": ["fill()", Key("left")],
+    "deplyr replace in a": ["replace_na()", Key("left")],
+    "deplyr complete": ["complete()", Key("left")],
+    "deplyr expand": ["complete()", Key("left")],
+    "deplyr separate": ["separate()", Key("left")],
+    "deplyr separate rows": ["separate_rows()", Key("left")],
+    "deplyr unite": ["unite()", Key("left")],
+
+
     "deplyr filter": ["filter()", Key("left"), Key("enter")],
     "deplyr mutate": ["mutate()", Key("left"), Key("enter")],
     "deplyr select": ["select()", Key("left"), Key("enter")],
