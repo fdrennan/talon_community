@@ -22,8 +22,8 @@ ctx = Context("lubridate")
 
 
 keymap = {
-    "import luber": ["library(lubridate)"],
-    "luber package": ["lubridate::"]
+    "import blooper": ["library(lubridate)"],
+    "blooper package": ["lubridate::"]
 
 }
 
