@@ -25,8 +25,8 @@ keymap = {
 
     "deplyr package": ["dplyr::"],
 
-    "deplyr Tibble": ["tibble()", Key("left"), Key("enter")],
-    "deplyr tibble inverse": ["tribble()", Key("left"), Key("enter")],
+    "deplyr table": ["tibble()", Key("left"), Key("enter")],
+    "deplyr table inverse": ["tribble()", Key("left"), Key("enter")],
 
     "deplyr as tibble": ["as_tibble()", Key("left")],
     "deplyr is tibble": ["is_tibble()", Key("left")],
