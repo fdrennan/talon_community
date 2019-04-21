@@ -60,7 +60,13 @@ keymap = {
     "blooper force": ["force_tz()", Key("left")],
     "blooper day light": ["dst()"],
     "blooper stamp": ["stamp",Key("tab")],
-    "math year": ["years()",Key("left")]
+    "math year": ["years()",Key("left")],
+    "math month": ["months()",Key("left")],
+    "math week": ["weeks()",Key("left")],
+    "math day": ["days()",Key("left")],
+    "math hour": ["hours()",Key("left")],
+    "math minute": ["minutes()",Key("left")],
+    "math second": ["seconds()",Key("left")]
 
 }
 
