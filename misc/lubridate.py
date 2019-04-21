@@ -59,7 +59,8 @@ keymap = {
     "blooper with": ["with_tz()", Key("left")],
     "blooper force": ["force_tz()", Key("left")],
     "blooper day light": ["dst()"],
-    "blooper stamp": ["stamp",Key("tab")]
+    "blooper stamp": ["stamp",Key("tab")],
+    "blooper period year": ["years()",Key("left")]
 
 }
 
