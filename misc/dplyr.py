@@ -35,7 +35,7 @@ keymap = {
     "deplyr gather": ["gather(data = , key = , value = )"],
     "deplyr spread": ["spread(data = , key = , value = )"],
 
-    "deplyr drop in a": ["drop_na()", Key("left")],
+    "deplyr drop in": ["drop_na()", Key("left")],
     "deplyr fill": ["fill()", Key("left")],
     "deplyr replace in a": ["replace_na()", Key("left")],
     "deplyr complete": ["complete()", Key("left")],
