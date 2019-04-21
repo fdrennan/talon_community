@@ -131,7 +131,7 @@ keymap = {
     "deplyr full join": ["full_join()", Key("left")],
     "deplyr intersect": ["intersect()", Key("left")],
     "deplyr union": ["union()", Key("left")],
-    "deplyr set diff": ["setdiff()", Key("left")],
+    "deplyr set difference": ["setdiff()", Key("left")],
     "deplyr semi join": ["semi_join()", Key("left")],
     "deplyr anti join": ["anti_join()", Key("left")],
 
