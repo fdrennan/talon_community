@@ -105,6 +105,7 @@ keymap = {
     "deplyr pea min": ["pmin()", Key("left")],
     "deplyr recode": ["recode()", Key("left")],
     "deplyr recode factor": ["recode_factor()", Key("left")],
+    "deplyr in": ["n()", Key("left")],
 
     "reader right": ["write_"],
     "reader read": ["read_"]
