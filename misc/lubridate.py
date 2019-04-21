@@ -42,6 +42,13 @@ keymap = {
     "blooper year": ["year()", Key("left")],
     "blooper so": ["iso", Key("tab")],
     "blooper eppie": ["epi", Key("tab")],
+    "blooper hour": ["hour()", Key("left")],
+    "blooper minute": ["minute()", Key("left")],
+    "blooper second": ["second()", Key("left")],
+    "blooper semester": ["semester()", Key("left")],
+    "blooper quarter": ["quarter()", Key("left")],
+    "blooper AM": ["am()", Key("left")],
+    "blooper PM": ["pm()", Key("left")]
 
 }
 
