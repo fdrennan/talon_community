@@ -47,8 +47,8 @@ keymap = {
     "blooper second": ["second()", Key("left")],
     "blooper semester": ["semester()", Key("left")],
     "blooper quarter": ["quarter()", Key("left")],
-    "blooper AM": ["am()", Key("left")],
-    "blooper PM": ["pm()", Key("left")]
+    "blooper am": ["am()", Key("left")],
+    "blooper pea": ["pm()", Key("left")]
 
 }
 
