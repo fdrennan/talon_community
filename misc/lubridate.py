@@ -27,8 +27,8 @@ keymap = {
     "blooper as date time": ["as_datetime()", Key("left")],
     "blooper why them dee": ["ymd", Key("tab")],
     "blooper them dee why": ["mdy", Key("tab")],
-    "blooper dee them why": ["dmy", Key("tab")],
-    "blooper why dee them": ["ydm", Key("tab")],
+    "blooper DMY": ["dmy", Key("tab")],
+    "blooper YDM": ["ydm", Key("tab")],
 
 }
 
