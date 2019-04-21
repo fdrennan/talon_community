@@ -57,7 +57,29 @@ keymap = {
     "ourdubqual": [" == "],
     "in a": ["na"],
     "are studio": ["rstudio"],
-    "pasta oh": ["paste0()", Key("left")]
+    "pasta oh": ["paste0()", Key("left")],
+    "pasta": ["paste()", Key("left")],
+
+    "our structure": ["str()", Key("left")],
+    "our class": ["class()", Key("left")],
+    "our install": ["install.packages()", Key("left")],
+    "our library": ["library()", Key("left")],
+    "our data": ["data()", Key("left")],
+    "our get WD": ["getwd()", Key("left")],
+    "our set WD": ["setwd()", Key("left")],
+    "our cat": ["c()", Key("left")],
+    "our sequence": ["seq()", Key("left")],
+    "our repeat": ["rep()", Key("left")],
+    "our sort": ["sort()", Key("left")],
+    "our table": ["table()", Key("left")],
+    "our reverse": ["rev()", Key("left")],
+    "our unique": ["unique()", Key("left")],
+    "our for": ["for(){}", Key("left")],
+    "our while": ["while(){}", Key("left"), Key("left"), Key("left")],
+    "our if": ["if(){}", Key("left"), Key("left"), Key("left")],
+    "our else if": [" else if(){}", Key("left"), Key("left"), Key("left")],
+    "our else": [" else {}", Key("left"),Key("enter")],
+    "our function": ["function(){}", Key("left"),Key("enter"), Key("left"), Key("left"), Key("left"), Key("left")],
 
 }
 
