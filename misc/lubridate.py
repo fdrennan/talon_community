@@ -22,8 +22,8 @@ ctx = Context("lubridate")
 
 
 keymap = {
-    "library blooperdate": ["library(lubridate)"],
-    "blooperdate package": ["lubridate::"]
+    "import lube date": ["library(lubridate)"],
+    "lube date package": ["lubridate::"]
 
 }
 

@@ -54,7 +54,7 @@ keymap = {
     "stringer convert": ["str_conv()", Key("left")],
     "stringer view": ["str_view()", Key("left")],
     "stringer view all": ["str_view_all()", Key("left")],
-    "stringer wrap": ["str_view_all()", Key("left")]
+    "stringer wrap": ["str_wrap()", Key("left")]
 
 }
 
