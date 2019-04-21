@@ -37,7 +37,7 @@ keymap = {
 
     "deplyr drop in": ["drop_na()", Key("left")],
     "deplyr fill": ["fill()", Key("left")],
-    "deplyr replace in": ["replace_na()", Key("left")],
+    "deplyr replace nah": ["replace_na()", Key("left")],
     "deplyr complete": ["complete()", Key("left")],
     "deplyr expand": ["complete()", Key("left")],
     "deplyr separate": ["separate()", Key("left")],
