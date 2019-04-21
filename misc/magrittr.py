@@ -28,7 +28,7 @@ keymap = {
     "mage extract": ["extract()", Key("left")],
     "mage dub extract": ["extract2()", Key("left")],
     "mage in set": ["inset()", Key("left")],
-    "mage in set dub": ["inset2()", Key("left")],
+    "mage dub in set": ["inset2()", Key("left")],
     "mage use series": ["use_series()", Key("left")],
     "mage add": ["add()", Key("left")],
     "mage subtract": ["subtract()", Key("left")],
