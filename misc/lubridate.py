@@ -25,10 +25,10 @@ keymap = {
     "import blooper": ["library(lubridate)"],
     "blooper package": ["lubridate::"],
     "blooper as date time": ["as_datetime()", Key("left")],
-    "blooper YMD": ["ymd", Key("tab")],
-    "blooper NDY": ["mdy", Key("tab")],
-    "blooper DMY": ["dmy", Key("tab")],
-    "blooper YDM": ["ydm", Key("tab")],
+    "blooper year month": ["ymd", Key("tab")],
+    "blooper month day": ["mdy", Key("tab")],
+    "blooper day month": ["dmy", Key("tab")],
+    "blooper year day": ["ydm", Key("tab")],
 
 }
 
