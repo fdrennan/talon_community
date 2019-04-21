@@ -29,6 +29,8 @@ keymap = {
     "blooper NDY": ["mdy", Key("tab")],
     "blooper DMY": ["dmy", Key("tab")],
     "blooper YDM": ["ydm", Key("tab")],
+    "blooper why queue": ["yq()", Key("left")],
+    "blooper HMS": ["hms()", Key("left")]
 
 }
 
