@@ -26,6 +26,11 @@ keymap = {
     "pie package": ["recipes::"],
     "pie start": ["recipe()", Key("left")],
     "pie step": ["step_"],
+    "pie all": ["all_"],
+    "pie add": ["add_"],
+    "pie prep": ["prep()"],
+    "pie bake": ["bake()"],
+    "pie check": ["check"],
 }
 
 ctx.keymap(keymap)
