@@ -1,6 +1,7 @@
+
 from talon.voice import Context, Key
 
-ctx = Context("ggplot")
+ctx = Context("purrr")
 #  this is a mapping for scrolling and other mouse utilities
 #
 # keymap = {
@@ -21,11 +22,10 @@ ctx = Context("ggplot")
 # }
 
 keymap = {
-    "library GG plot": ['library(ggplot2)', Key("right"), Key("enter")],
-    "GG plot package": ["ggplot::"],
-    "GG plot": ["ggplot(data = ) +", Key("left"), Key("left"), Key("left")],
-    "GG aesthetics": ["aes() +", Key("left"), Key("left"), Key("left")],
-    "geom line": ["geom_line()", Key("left")]
+    "import purr": ['library(purrr)', Key("enter")],
+    "purr map": ['map()', Key("left")],
+    "purr map dub": ['map2()', Key("left")],
+    "purr mapping": ['pmap()', Key("left")]
 }
 
 ctx.keymap(keymap)

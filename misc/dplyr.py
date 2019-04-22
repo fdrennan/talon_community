@@ -159,7 +159,9 @@ keymap = {
     "deplyr anti join": ["anti_join()", Key("left")],
 
     "reader right": ["write_"],
-    "reader read": ["read_"]
+    "reader read": ["read_"],
+
+    "deplyr schema": ['tbl(con, in_schema("public", "f_ttd_performance"))']
 }
 
 ctx.keymap(keymap)
