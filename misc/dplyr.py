@@ -161,7 +161,8 @@ keymap = {
     "reader right": ["write_"],
     "reader read": ["read_"],
 
-    "DB schema": ['tbl(con, in_schema("public", ""))', Key("left"), Key("left"), Key("left")]
+    "DB schema": ['tbl(con, in_schema("public", ""))', Key("left"), Key("left"), Key("left")],
+    "DB list tables": ['db_list_tables()', Key("left")]
 }
 
 ctx.keymap(keymap)
