@@ -22,8 +22,8 @@ ctx = Context("recipes")
 # }
 
 keymap = {
-    "import pies": ['library(recipies)', Key("enter")],
-    "pies package": ["recipes::"],
+    "import pie": ['library(recipies)', Key("enter")],
+    "pie package": ["recipes::"],
     "pie start": ["recipe()", Key("left")],
     "pie step": ["step_"],
 }

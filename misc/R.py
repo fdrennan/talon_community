@@ -21,6 +21,7 @@ ctx = Context("R")
 # }
 
 keymap = {
+    "import tidy models": ["library(tidymodels"],
     "empty cars": ["mtcars"],
     "our view": ["View()", Key("left")],
     "our glimpse": ["glimpse()", Key("left")],
