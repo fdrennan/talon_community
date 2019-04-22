@@ -161,7 +161,7 @@ keymap = {
     "reader right": ["write_"],
     "reader read": ["read_"],
 
-    "deplyr schema": ['tbl(con, in_schema("public", "f_ttd_performance"))']
+    "remote table schema": ['tbl(con, in_schema("public", ""))', Key("left"), Key("left"), Key("left")]
 }
 
 ctx.keymap(keymap)
