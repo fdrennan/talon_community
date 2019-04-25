@@ -62,6 +62,7 @@ keymap = {
     "pasta oh": ["paste0()", Key("left")],
     "pasta": ["paste()", Key("left")],
     "our in row": ["nrow()", Key("left")],
+    "pool": ["pull"],
     "our structure": ["str()", Key("left")],
     "our class": ["class()", Key("left")],
     "our install": ["install.packages()", Key("left")],
