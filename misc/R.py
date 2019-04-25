@@ -61,7 +61,7 @@ keymap = {
     "are studio": ["rstudio"],
     "pasta oh": ["paste0()", Key("left")],
     "pasta": ["paste()", Key("left")],
-
+    "our in row": ["nrow()", Key("left")],
     "our structure": ["str()", Key("left")],
     "our class": ["class()", Key("left")],
     "our install": ["install.packages()", Key("left")],
