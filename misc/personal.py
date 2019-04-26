@@ -22,6 +22,7 @@ ctx = Context("personal")
 
 keymap = {
     "jeera": ["JIRA"],
+    "sequel": ["SQL"],
     "jet pole": ["git pull "],
     "our double down": [Key("down"), Key("down")],
     "prog our": ["R"],
