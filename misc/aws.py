@@ -23,7 +23,9 @@ ctx = Context("boto")
 
 keymap = {
     "import boto": ['boto <- import("boto3")'],
-    "boto": ['boto']
+    "boto": ['boto'],
+    "easy to": ["ec2"],
+    "ec two": ["ec2"]
 
 }
 
