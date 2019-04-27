@@ -27,7 +27,7 @@ keymap = {
     "our glimpse": ["glimpse()", Key("left")],
     "deplyr glimpse": ["glimpse()", Key("left")],
     "tracks": ["x"],
-    "are null": ["NULL"],
+    "are no": ["NULL"],
     "x-ray": ["x"],
     "our new script": [Key('cmd-shift-n')],
     "focus code": [Key('ctrl-1')],
@@ -36,7 +36,6 @@ keymap = {
     "focus console only": [Key('ctrl-shift-2')],
     "focus term": [Key('alt-shift-t')],
     "focus all": [Key('ctrl-shift-0')],
-
     "focus code full": [Key('shift-ctrl-1')],
     "focus console full": [Key('shift-ctrl-2')],
 
