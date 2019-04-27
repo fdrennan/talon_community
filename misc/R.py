@@ -27,6 +27,7 @@ keymap = {
     "our glimpse": ["glimpse()", Key("left")],
     "deplyr glimpse": ["glimpse()", Key("left")],
     "tracks": ["x"],
+    "are knoll": ["NULL"],
     "x-ray": ["x"],
     "our new script": [Key('cmd-shift-n')],
     "focus code": [Key('ctrl-1')],
