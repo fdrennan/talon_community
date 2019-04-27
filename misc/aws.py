@@ -1,7 +1,6 @@
-
 from talon.voice import Context, Key
 
-ctx = Context("recipes")
+ctx = Context("boto")
 #  this is a mapping for scrolling and other mouse utilities
 #
 # keymap = {
@@ -21,16 +20,10 @@ ctx = Context("recipes")
 #     "marthis": [Key("alt-right"), Key("shift-alt-left"), Key("cmd-f"), Key("enter")],
 # }
 
+
 keymap = {
-    "import cake": ['library(recipies)', Key("enter")],
-    "cake package": ["recipes::"],
-    "cake start": ["recipe()", Key("left")],
-    "cake step": ["step_"],
-    "cake all": ["all_"],
-    "cake add": ["add_"],
-    "cake prep": ["prep()"],
-    "cake bake": ["bake()"],
-    "cake check": ["check"],
+    "import boto": ['boto <- import("boto3")']
+
 }
 
 ctx.keymap(keymap)
