@@ -33,7 +33,7 @@ def on_phrase(j):
         else:
             webview.render("{{ phrase }}", phrase=body)
 
-    if NOTIFY and cmd == "p.end" and phrase:
+    # if NOTIFY and cmd == "p.end" and phrase:
         # app.notify(body=phrase)
 
 
