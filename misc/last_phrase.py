@@ -34,7 +34,7 @@ def on_phrase(j):
             webview.render("{{ phrase }}", phrase=body)
 
     if NOTIFY and cmd == "p.end" and phrase:
-        app.notify(body=phrase)
+        # app.notify(body=phrase)
 
 
 engine.register("phrase", on_phrase)
