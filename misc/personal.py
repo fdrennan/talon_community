@@ -21,6 +21,7 @@ ctx = Context("personal")
 # }
 
 keymap = {
+    "big our": ["biggr"],
     "jeera": ["JIRA"],
     "our site": ["drenr.com"],
     "sequel": ["SQL"],
