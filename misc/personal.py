@@ -22,6 +22,7 @@ ctx = Context("personal")
 
 keymap = {
     "ellis": ["ls -la"],
+    "post grass": ["postgres"],
     "big our": ["biggr"],
     "jeera": ["JIRA"],
     "our site": ["drenr.com"],
