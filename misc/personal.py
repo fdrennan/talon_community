@@ -21,7 +21,7 @@ ctx = Context("personal")
 # }
 
 keymap = {
-    "ellis": ["la -la"],
+    "ellis": ["ls -la"],
     "big our": ["biggr"],
     "jeera": ["JIRA"],
     "our site": ["drenr.com"],
