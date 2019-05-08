@@ -21,6 +21,7 @@ ctx = Context("R")
 # }
 
 keymap = {
+    "add set": ["adset"],
     "our save": [Key("cmd-shift-s")],
     "import tidy models": ["library(tidymodels"],
     "empty cars": ["mtcars"],
