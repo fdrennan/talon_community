@@ -47,6 +47,7 @@ keymap = {
     "stringer cat": ["str_c()", Key("left")],
     "stringer dupe": ["str_dup()", Key("left")],
     "stringer split fixed": ["str_split_fixed()", Key("left")],
+    "stringer split": ["str_split()", Key("left")],
     "stringer glue": ["str_glue()", Key("left")],
     "stringer glue data": ["str_glue_data()", Key("left")],
     "stringer order": ["str_order()", Key("left")],
