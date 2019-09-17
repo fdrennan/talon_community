@@ -16,6 +16,6 @@ ctx.keymap(
         "word dup": "dup",
         "word (dickt | dictionary)": "dict",
         "word shell": "shell",
-        "word talon": "talon",
+        "word talon": "talon"
     }
 )
