@@ -23,15 +23,8 @@ ctx = Context("personal")
 keymap = {
     "import none pie": ["import numpy as np"],
     "none pie": ["np."],
-    "import pandas": ["import pandas as pd"],
-    "pandas": ["pd."],
     "import mat plot": ["import matplotlib.pyplot as plt"],
     "mat plot": ["plt."],
-    "pandas call names": [".columns"],
-    "pandas group by": [".groupby(['Animals'])"],
-    "pandas summarise": [".agg({'column': 'function'})"],
-    "pandas apply": [".agg({'column': 'function'})"],
-    "pandas eye": [".iloc[]", Key("left")],
     "ellis": ["ls -la"],
     "post grass": ["postgres"],
     "big our": ["biggr"],
@@ -46,8 +39,7 @@ keymap = {
     "our chunk": ["```{r, message=FALSE, warning=FALSE}", Key("enter"), Key("enter"), "```", Key("up")],
     "pie chunk": ["```{python}", Key("enter"), Key("enter"), "```", Key("up")],
     "our pat": [Key("space"), "<-", Key("enter")],
-    "curly bracket": ["{}", Key("left"), Key("enter")],
-
+    "curly bracket": ["{}", Key("left"), Key("enter")]
 }
 
 ctx.keymap(keymap)
