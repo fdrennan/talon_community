@@ -98,6 +98,7 @@ keymap = {
     "troll char": Key("ctrl-c"),
     "reverse": Key("ctrl-r"),
     "cd": ["cd ; ls", Key("left"), Key("left"), Key("left"), Key("left")],
+    "seedy": ["cd ; ls", Key("left"), Key("left"), Key("left"), Key("left")],
     "cd wild": [
         "cd **; ls",
         Key("left"),

@@ -22,8 +22,31 @@ ctx = Context("dplyr")
 
 
 keymap = {
-
+    "import deplyr": ["library(deplyr)"],
+    "import tidy": ["library(tidyverse)"],
+    "tighty": ["tidy", Key("tab")],
     "deplyr package": ["dplyr::"],
+
+    "deplyr table": ["tibble()", Key("left"), Key("enter")],
+    "deplyr table inverse": ["tribble()", Key("left"), Key("enter")],
+
+    "deplyr as tibble": ["as_tibble()", Key("left")],
+    "deplyr is tibble": ["is_tibble()", Key("left")],
+    "deplyr in frame": ["enframe()", Key("left")],
+
+    "deplyr gather": ["gather(data = , key = , value = )"],
+    "deplyr spread": ["spread(data = , key = , value = )"],
+
+    "deplyr drop in": ["drop_na()", Key("left")],
+    "deplyr fill": ["fill()", Key("left")],
+    "deplyr replace": ["replace_na()", Key("left")],
+    "deplyr complete": ["complete()", Key("left")],
+    "deplyr expand": ["expand()", Key("left")],
+    "deplyr separate": ["separate()", Key("left")],
+    "deplyr separate rows": ["separate_rows()", Key("left")],
+    "deplyr unite": ["unite()", Key("left")],
+
+
     "deplyr filter": ["filter()", Key("left"), Key("enter")],
     "deplyr mutate": ["mutate()", Key("left"), Key("enter")],
     "deplyr select": ["select()", Key("left"), Key("enter")],
@@ -70,15 +93,76 @@ keymap = {
     "deplyr add column": ["add_column will()", Key("left")],
 
     "deplyr pull": ["pull()", Key("left")],
-
+    "deplyr everything": ["everything()"],
     "deplyr contains": ["contains()", Key("left")],
     "deplyr ends_with": ["ends_with()", Key("left")],
     "deplyr matches": ["matches()", Key("left")],
     "deplyr numb range": ["num_range()", Key("left")],
     "deplyr one of": ["one_of()", Key("left")],
     "deplyr starts with": ["starts_with()", Key("left")],
+    "deplyr call names": [" %>% ", Key("enter"), "colnames"],
+
+    "deplyr lag": ["lag()", Key("left")],
+    "deplyr lead": ["lead()", Key("left")],
+    "deplyr come all": ["cumall()", Key("left")],
+    "deplyr come any": ["cumany()", Key("left")],
+    "deplyr come max": ["cummax()", Key("left")],
+    "deplyr come mean": ["cummean()", Key("left")],
+    "deplyr come min": ["cummin()", Key("left")],
+    "deplyr come prod": ["cumprod()", Key("left")],
+    "deplyr come sum": ["cumsum()", Key("left")],
+    "deplyr come dist": ["cume_dist()", Key("left")],
+    "deplyr dense rank": ["dense_rank()", Key("left")],
+    "deplyr min rank": ["min_rank()", Key("left")],
+    "deplyr in tile": ["ntile()", Key("left")],
+    "deplyr percent rank": ["percent_rank()", Key("left")],
+    "deplyr row number": ["row_number()", Key("left")],
+    "deplyr between": ["between()", Key("left")],
+    "deplyr near": ["near()", Key("left")],
+
+    "deplyr case": ["case_when()", Key("left"), Key("enter")],
+    "deplyr coal": ["coalesce()", Key("left")],
+    "deplyr if":      ["if_else()", Key("left")],
+    "deplyr in if": ["na_if()", Key("left")],
+    "deplyr pea max": ["pmax()", Key("left")],
+    "deplyr pea min": ["pmin()", Key("left")],
+    "deplyr recode": ["recode()", Key("left")],
+    "deplyr recode factor": ["recode_factor()", Key("left")],
+
+    "deplyr in": ["n()", Key("left")],
+    "deplyr in distinct": ["n_distinct()", Key("left")],
+    "deplyr mean": ["mean()", Key("left")],
+    "deplyr median": ["median()", Key("left")],
+    "deplyr sum": ["sum()", Key("left")],
+    "deplyr first": ["first()", Key("left")],
+    "deplyr last": ["last()", Key("left")],
+    "deplyr inth": ["nth()", Key("left")],
+    "deplyr men": ["min()", Key("left")],
+    "deplyr max": ["max()", Key("left")],
+    "deplyr quantile": ["quantile()", Key("left")],
+    "deplyr eye queue are": ["IQR()", Key("left")],
+    "deplyr mad": ["mad()", Key("left")],
+    "deplyr standard deviation": ["sd()", Key("left")],
+    "deplyr var": ["var()", Key("left")],
+    "deplyr row to call": ["rownames_to_column()", Key("left")],
+    "deplyr call to row": ["column_to_rownames()", Key("left")],
+    "deplyr bind calls": ["bind_cols()", Key("left")],
+    "deplyr bind rows": ["bind_rows()", Key("left")],
+    "deplyr left join": ["left_join()", Key("left")],
+    "deplyr right join": ["right_join()", Key("left")],
+    "deplyr inner join": ["inner_join()", Key("left")],
+    "deplyr full join": ["full_join()", Key("left")],
+    "deplyr intersect": ["intersect()", Key("left")],
+    "deplyr union": ["union()", Key("left")],
+    "deplyr set difference": ["setdiff()", Key("left")],
+    "deplyr semi join": ["semi_join()", Key("left")],
+    "deplyr anti join": ["anti_join()", Key("left")],
+
     "reader right": ["write_"],
-    "reader read": ["read_"]
+    "reader read": ["read_"],
+
+    "DB schema": ['tbl(con, in_schema("public", ""))', Key("left"), Key("left"), Key("left")],
+    "DB list tables": ['db_list_tables()', Key("left")]
 }
 
 ctx.keymap(keymap)

@@ -1,7 +1,5 @@
 from talon.voice import Context, Key
 
-
-
 ctx = Context("personal")
 #  this is a mapping for scrolling and other mouse utilities
 #
@@ -23,9 +21,27 @@ ctx = Context("personal")
 # }
 
 keymap = {
+    "import none pie": ["import numpy as np"],
+    "none pie": ["np."],
+    "import pandas": ["import pandas as pd"],
+    "pandas": ["pd."],
+    "import mat plot": ["import matplotlib.pyplot as plt"],
+    "mat plot": ["plt."],
+    "pandas call names": [".columns"],
+    "pandas group by": [".groupby(['Animals'])"],
+    "pandas summarise": [".agg({'column': 'function'})"],
+    "pandas apply": [".agg({'column': 'function'})"],
+    "ellis": ["ls -la"],
+    "post grass": ["postgres"],
+    "big our": ["biggr"],
+    "jeera": ["JIRA"],
+    "our site": ["drenr.com"],
+    "sequel": ["SQL"],
     "jet pole": ["git pull "],
+    "our double down": [Key("down"), Key("down")],
     "prog our": ["R"],
     "our pipe": [Key("cmd-shift-m"), Key("enter")],
+    "our pipe line": [Key("cmd-right"), Key("cmd-shift-m"), Key("enter")],
     "our chunk": ["```{r, message=FALSE, warning=FALSE}", Key("enter"), Key("enter"), "```", Key("up")],
     "pie chunk": ["```{python}", Key("enter"), Key("enter"), "```", Key("up")],
     "our pat": [Key("space"), "<-", Key("enter")],
