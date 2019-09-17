@@ -31,6 +31,7 @@ keymap = {
     "pandas group by": [".groupby(['Animals'])"],
     "pandas summarise": [".agg({'column': 'function'})"],
     "pandas apply": [".agg({'column': 'function'})"],
+    "pandas eye lock": [".iloc[]", Key("left")],
     "ellis": ["ls -la"],
     "post grass": ["postgres"],
     "big our": ["biggr"],
