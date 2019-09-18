@@ -10,7 +10,8 @@ keymap = {
     "pandas group by": [".groupby(['Animals'])"],
     "pandas summarise": [".agg({'column': 'function'})"],
     "pandas apply": [".agg({'column': 'function'})"],
-    "pandas eye": [".iloc[]", Key("left")],
+    "pandas eye": [".iloc[]", Key("left")]
+
 
 }
 
