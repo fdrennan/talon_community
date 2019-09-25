@@ -61,7 +61,7 @@ keymap = {
     "deplyr summarize if": ["summarise_if()", Key("left")],
     "deplyr rename if": ["rename_if()", Key("left")],
     "deplyr group by if": ["group_by_if()", Key("left")],
-    "deplyr transmute if": ["transmute_if()", Key("left"],
+    "deplyr transmute if": ["transmute_if()", Key("left")],
 
     "deplyr filter at": ["filter_at()", Key("left")],
     "deplyr mutate at": ["mutate_at()", Key("left")],
