@@ -8,6 +8,7 @@ keymap = {
     "scroll up": [Key("up")] * 30,
     # NB home and end do not work in all apps
     "(scroll way down | doomway)": Key("cmd-down"),
+    "(scroll new | new way)": [Key("cmd-right"), Key("enter")],
     "(scroll way up | jeepway)": Key("cmd-up"),
     "page up": [Key("pageup")],
     "page down": [Key("pagedown")],
