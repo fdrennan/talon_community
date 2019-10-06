@@ -4,7 +4,7 @@ ctx = Context("githelpers")
 
 
 keymap = {
-    "jet lazy": ["git add --all", Key("enter"), ["git commit -m 'update'"], Key("enter")]
+    "jet lazy": ["git add --all && git commit -m 'update'"]
 }
 
 ctx.keymap(keymap)
