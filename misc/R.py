@@ -49,6 +49,8 @@ keymap = {
     "our run": [Key('ctrl-enter')],
     "our source": [Key('ctrl-enter')],
     "our build": [Key('cmd-shift-b')],
+    "our test": [Key('cmd-shift-t')],
+    "our check": [Key('cmd-shift-e')],
     "our comment": [Key('ctrl-shift-c')],
     "run above": [Key('alt-cmd-p')],
     "run chunk": [Key('cmd-shift-enter')],
