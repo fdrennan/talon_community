@@ -4,8 +4,8 @@ ctx = Context("plumber")
 
 
 keymap = {
-    "plumbr new": ["#' @", Key("tab")]
-
+    "plumper new": ["#' @", Key("tab")],
+    "plumper import": ["#' @import from", Key("tab")]
 }
 
 ctx.keymap(keymap)
