@@ -52,6 +52,7 @@ keymap = {
     "our test": [Key('cmd-shift-t')],
     "our check": [Key('cmd-shift-e')],
     "our doc": [Key('ctrl-shift-d')],
+    "our script": ["Rscript"],
     "our comment": [Key('ctrl-shift-c')],
     "run above": [Key('alt-cmd-p')],
     "run chunk": [Key('cmd-shift-enter')],
