@@ -21,7 +21,6 @@ ctx = Context("personal")
 # }
 
 keymap = {
-    "dren nan": ["drennan"],
     "jren": ["dren"],
     "import none pie": ["import numpy as np"],
     "none pie": ["np."],
