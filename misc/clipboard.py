@@ -1,6 +1,6 @@
 from talon.voice import Key, press, Str, Context
 from talon import clip
-from talon_community.utils import *
+from utils import *
 
 ctx = Context('clipboard')
 
