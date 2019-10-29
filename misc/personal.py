@@ -41,7 +41,7 @@ keymap = {
     "pie chunk": ["```{python}", Key("enter"), Key("enter"), "```", Key("up")],
     "our pat": [Key("space"), "<-", Key("enter")],
     "curly bracket": ["{}", Key("left"), Key("enter")],
-    "straight bracket": ["[]", Key("left"), Key("enter")]
+    "straight bracket": ["[]", Key("left")]
 }
 
 ctx.keymap(keymap)
